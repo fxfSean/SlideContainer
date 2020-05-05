@@ -45,8 +45,8 @@ class SlideContainerLayout constructor(context: Context, attrs: AttributeSet? = 
     private lateinit var mSlideInAnimator // 动画
             : ValueAnimator
 
-    private val MASK_DARK_COLOR = 0xAA
-    private val MASK_TRANSPANT_COLOR = 0x00000000
+    private val MASK_DARK_COLOR = 0xAA // 灰色蒙层
+    private val MASK_TRANSPANT_COLOR = 0x00000000 // 透明
 
     private lateinit var mBgColorView: View
 
