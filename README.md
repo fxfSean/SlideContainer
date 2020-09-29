@@ -6,9 +6,22 @@
 
 ## 引入
 
-在app module 下引入
+> Add it in your root build.gradle at the end of repositories:
 
-``implementation 'com.github.fxfSean:SlideContainer:1.0'``
+``` 
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+> 在app module 下引入
+
+`` implementation 'com.github.fxfSean:SlideContainer:2.0'``
+
+
 
 ## 使用
 
